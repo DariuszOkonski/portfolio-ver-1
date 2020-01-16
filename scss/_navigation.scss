@@ -1,0 +1,35 @@
+.navigation {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: $gray-two;
+  border-bottom: 1px solid $gray-one;
+  box-shadow: 0px 2px 5px 0px $gray-one;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  min-height: 50px;
+
+  &__list {
+    list-style-type: none;
+    display: flex;
+  }
+
+  &__link {
+    font-size: $font-paragraph;
+    text-decoration: none;
+    padding: 0.5rem;
+    color: $gray-one;
+    font-weight: 300;
+    transition: .2s;
+
+    &:hover {
+      background-color: $gray-one;
+      color: $gray-two;
+    }
+  }
+}
