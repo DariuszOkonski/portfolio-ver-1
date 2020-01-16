@@ -28,7 +28,8 @@ body {
   padding-right: 0.5rem;
 
   @media(min-width: $desktop) {
-    padding: 0 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 }
 
@@ -48,6 +49,7 @@ body {
 
 .header {
   font-size: $font-header;
+  color: #000;
   padding-bottom: 1rem;
   border-bottom: 1px solid $gray-one;
 }
