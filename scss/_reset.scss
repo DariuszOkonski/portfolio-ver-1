@@ -6,7 +6,8 @@
   box-sizing: border-box;
 }
 
-html {
+html,
+body {
   font-size: 16px;
   font-family: 'Lato', sans-serif;
 }
@@ -16,10 +17,10 @@ html {
 .container {
   max-width: 1184px;
   margin: 0 auto;
-  padding: 1rem;
+  padding: 0 1rem;
 }
 
-.full-view {
+.sectionHeight {
   height: 100vh;
   padding-top: 2rem;
 }
