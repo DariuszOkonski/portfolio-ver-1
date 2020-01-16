@@ -1,5 +1,8 @@
 .home {
   background-color: yellow;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 
   &__image {
     width: 80px;
