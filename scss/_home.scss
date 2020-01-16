@@ -1,5 +1,4 @@
 .home {
-  background-color: yellow;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -8,6 +7,11 @@
     width: 100px;
     height: 100px;
     margin-left: 10px;
+
+    @media(min-width: $desktop) {
+      width: 160px;
+      height: 160px;
+    }
 
     .img {
       width: 100%;
@@ -20,12 +24,14 @@
     font-size: $font-header;
     line-height: $lineHeight-header;
     margin: 1rem 0 2rem;
+    max-width: 767px;
   }
 
   &__paragraph {
     font-size: $font-paragraph;
     line-height: $lineHeight-paragraph;
     margin-bottom: 2rem;
+    max-width: 767px;
   }
 
   &__link {
