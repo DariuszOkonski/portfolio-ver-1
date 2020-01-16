@@ -94,6 +94,7 @@ body {
   line-height: 2rem;
   margin: 1rem 0 2rem;
   max-width: 767px;
+  color: #000;
 }
 
 .home__paragraph {
