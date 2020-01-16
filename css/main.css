@@ -9,8 +9,10 @@
 
 html,
 body {
+  scroll-behavior: smooth;
   font-family: 'Lato', sans-serif;
   font-size: 16px;
+  color: #52606d;
 }
 
 @media (min-width: 1024px) {
@@ -24,7 +26,8 @@ body {
   width: 100%;
   max-width: 1184px;
   margin: 0 auto;
-  padding: 0 0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 @media (min-width: 1024px) {
@@ -35,7 +38,8 @@ body {
 
 .sectionHeight {
   min-height: 100vh;
-  padding: 2rem 0;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
 }
 
 .mail {
@@ -44,6 +48,12 @@ body {
   text-decoration: none;
   padding-bottom: 0.5rem;
   border-bottom: 2px solid #0593fa;
+}
+
+.header {
+  font-size: 1.4rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #52606d;
 }
 
 .home {
@@ -95,5 +105,9 @@ body {
 
 .home__link {
   color: #0593fa;
+}
+
+.projects {
+  background-color: #dbdcdd;
 }
 /*# sourceMappingURL=main.css.map */
