@@ -26,13 +26,15 @@
   &__link {
     font-size: $font-paragraph;
     text-decoration: none;
-    padding: 0.5rem;
+    padding: 0.25rem;
     color: $gray-one;
     letter-spacing: 1px;
     font-weight: 300;
     transition: .3s;
 
     @media(min-width: $desktop) {
+      padding: 0.5rem;
+
       &:hover {
         background-color: $gray-one;
         color: $gray-two;
