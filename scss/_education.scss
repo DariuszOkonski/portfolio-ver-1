@@ -1,0 +1,14 @@
+.sectionHeight {
+  min-height: 50vh;
+}
+
+.education {
+  margin: 1rem 0;
+
+  &__paragraph {
+    font-size: 1rem;
+    max-width: $paragraph-width;
+    line-height: 1.6rem;
+    margin: 1rem 0;
+  }
+}
