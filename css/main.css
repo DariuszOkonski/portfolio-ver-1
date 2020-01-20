@@ -40,12 +40,18 @@
 .nav__link {
   font-size: 1rem;
   text-decoration: none;
-  padding: 0.25rem;
+  padding: 0.15rem;
   color: #52606d;
   letter-spacing: 1px;
   font-weight: 300;
   -webkit-transition: .3s;
   transition: .3s;
+}
+
+@media (min-width: 360px) {
+  .nav__link {
+    padding: 0.25rem;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -110,6 +116,10 @@ body {
   min-height: 100vh;
   padding-top: 4rem;
   padding-bottom: 1rem;
+}
+
+.sectionHeight--small {
+  min-height: 50vh;
 }
 
 .mail {
@@ -181,6 +191,10 @@ body {
 
 .projects-bg {
   background-color: #dbdcdd;
+}
+
+.projects {
+  padding-bottom: 1rem;
 }
 
 .projects__paragraph {
@@ -337,10 +351,6 @@ body {
   }
 }
 
-.sectionHeight {
-  min-height: 50vh;
-}
-
 .education {
   margin: 1rem 0;
 }
@@ -385,5 +395,15 @@ body {
 
 .contact .mail {
   color: #fff;
+}
+
+.footer {
+  padding: 0.5rem;
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  letter-spacing: 1px;
+  font-size: 0.5rem;
+  font-weight: 300;
 }
 /*# sourceMappingURL=main.css.map */
