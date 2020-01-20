@@ -26,11 +26,15 @@
   &__link {
     font-size: $font-paragraph;
     text-decoration: none;
-    padding: 0.25rem;
+    padding: 0.15rem;
     color: $gray-one;
     letter-spacing: 1px;
     font-weight: 300;
     transition: .3s;
+
+    @media(min-width: $mobile-small) {
+      padding: 0.25rem;
+    }
 
     @media(min-width: $desktop) {
       padding: 0.5rem;
