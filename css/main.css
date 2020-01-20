@@ -97,6 +97,10 @@ body {
   }
 }
 
+.bg-gray {
+  background-color: #dbdcdd;
+}
+
 .sectionHeight {
   min-height: 100vh;
   padding-top: 4rem;
@@ -326,5 +330,20 @@ body {
   .features__abilities {
     margin-top: 1rem;
   }
+}
+
+.sectionHeight {
+  min-height: 50vh;
+}
+
+.education {
+  margin: 1rem 0;
+}
+
+.education__paragraph {
+  font-size: 1rem;
+  max-width: 767px;
+  line-height: 1.6rem;
+  margin: 1rem 0;
 }
 /*# sourceMappingURL=main.css.map */
