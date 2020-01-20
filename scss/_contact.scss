@@ -1,0 +1,34 @@
+.contact {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
+  .features__header {
+    color: #fff;
+
+    h3 {
+      font-size: 1.4rem;
+    }
+  }
+
+  &__paragraph {
+    font-size: 1rem;
+    max-width: $paragraph-width;
+    line-height: 1.6rem;
+  }
+
+  &__icons {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  &__links {
+    text-decoration: none;
+    color: #fff;
+    font-size: 2rem;
+    margin-right: 1rem;
+  }
+
+  .mail {
+    color: #fff;
+  }
+}
