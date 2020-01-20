@@ -101,6 +101,11 @@ body {
   background-color: #dbdcdd;
 }
 
+.bg-blue {
+  background-color: #171f3f;
+  color: #fff;
+}
+
 .sectionHeight {
   min-height: 100vh;
   padding-top: 4rem;
@@ -159,7 +164,7 @@ body {
   font-size: 1.4rem;
   line-height: 2rem;
   margin: 1rem 0 2rem;
-  max-width: 767px;
+  max-width: 667px;
   color: #000;
 }
 
@@ -167,7 +172,7 @@ body {
   font-size: 1rem;
   line-height: 1.6rem;
   margin-bottom: 2rem;
-  max-width: 767px;
+  max-width: 667px;
 }
 
 .home__link {
@@ -181,7 +186,7 @@ body {
 .projects__paragraph {
   font-size: 1rem;
   line-height: 1.6rem;
-  max-width: 767px;
+  max-width: 667px;
   margin: 1rem 0;
 }
 
@@ -342,8 +347,43 @@ body {
 
 .education__paragraph {
   font-size: 1rem;
-  max-width: 767px;
+  max-width: 667px;
   line-height: 1.6rem;
   margin: 1rem 0;
+}
+
+.contact {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.contact .features__header {
+  color: #fff;
+}
+
+.contact .features__header h3 {
+  font-size: 1.4rem;
+}
+
+.contact__paragraph {
+  font-size: 1rem;
+  max-width: 667px;
+  line-height: 1.6rem;
+}
+
+.contact__icons {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.contact__links {
+  text-decoration: none;
+  color: #fff;
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+
+.contact .mail {
+  color: #fff;
 }
 /*# sourceMappingURL=main.css.map */
