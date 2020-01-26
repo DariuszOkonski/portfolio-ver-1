@@ -1,0 +1,29 @@
+.nav-allprojects {
+  display: flex;
+  justify-content: space-around;
+
+  .btn {
+    flex-basis: 50%;
+  }
+
+  .nav__list {
+    flex-basis: 50%;
+    justify-content: flex-end;
+  }
+}
+
+
+.btn-dark {
+  display: inline-block;
+  background-color: $gray-one;
+  color: $gray-two;
+  padding: 0.2rem 0.5rem;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: .2s;
+
+  &:hover {
+    background-color: lighten($color: $gray-one, $amount: 10)
+  }
+}
