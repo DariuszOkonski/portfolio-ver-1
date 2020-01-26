@@ -406,4 +406,41 @@ body {
   font-size: 0.5rem;
   font-weight: 300;
 }
+
+.nav-allprojects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.nav-allprojects .btn {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+}
+
+.nav-allprojects .nav__list {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.btn-dark {
+  display: inline-block;
+  background-color: #52606d;
+  color: #dbdcdd;
+  padding: 0.2rem 0.5rem;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.btn-dark:hover {
+  background-color: #687a8a;
+}
 /*# sourceMappingURL=main.css.map */
