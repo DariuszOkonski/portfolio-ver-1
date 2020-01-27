@@ -22,6 +22,7 @@
   text-decoration: none;
   cursor: pointer;
   transition: .2s;
+  font-size: 1rem;
 
   &:hover {
     background-color: lighten($color: $gray-one, $amount: 10)

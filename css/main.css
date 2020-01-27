@@ -222,8 +222,6 @@ body {
 
 @media (min-width: 1024px) {
   .projects__container {
-    -ms-grid-columns: 1fr 1fr 1fr;
-        grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 1rem;
   }
 }
@@ -448,6 +446,7 @@ body {
   cursor: pointer;
   -webkit-transition: .2s;
   transition: .2s;
+  font-size: 1rem;
 }
 
 .btn-dark:hover {
