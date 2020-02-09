@@ -229,8 +229,8 @@ body {
 .project {
   background-color: #fff;
   border-radius: 10px;
-  -webkit-box-shadow: 3px 3px 10px 1px #52606d;
-          box-shadow: 3px 3px 10px 1px #52606d;
+  -webkit-box-shadow: 3px 3px 10px 1px #afb9c3;
+          box-shadow: 3px 3px 10px 1px #afb9c3;
   overflow: hidden;
   display: -webkit-box;
   display: -ms-flexbox;

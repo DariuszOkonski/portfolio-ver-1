@@ -31,7 +31,7 @@
 .project {
   background-color: #fff;
   border-radius: 10px;
-  box-shadow: 3px 3px 10px 1px $gray-one;
+  box-shadow: 3px 3px 10px 1px lighten($color: $gray-one, $amount: 35%);
   overflow: hidden;
 
   display: flex;
