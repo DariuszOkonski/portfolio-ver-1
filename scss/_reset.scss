@@ -34,7 +34,8 @@ body {
 }
 
 .bg-gray {
-  background-color: $gray-two;
+  // background-color: $gray-two;
+  background-color: lighten($color: $gray-two, $amount: 8%);
 }
 
 .bg-blue {

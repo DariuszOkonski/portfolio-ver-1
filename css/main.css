@@ -104,7 +104,7 @@ body {
 }
 
 .bg-gray {
-  background-color: #dbdcdd;
+  background-color: #f0f0f1;
 }
 
 .bg-blue {
@@ -441,7 +441,6 @@ body {
   background-color: #52606d;
   color: #dbdcdd;
   padding: 0.2rem 0.5rem;
-  border-radius: 5px;
   text-decoration: none;
   cursor: pointer;
   -webkit-transition: .2s;
